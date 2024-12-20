@@ -7,35 +7,32 @@ const Home = () => {
   return (
 
     <div>
-      <img src="Logo" alt="logo" />
+      <div id="nms">
+      <img src={Logo} id='logo' alt="logo" />
       <h1 id='sname'>SQUAD 76</h1>
       <h2 id='qs'>"Powered by ambition, defined by success."</h2>
+      
+      </div>
       <div className="navs">
-      <div className='cds'> 
-        <h2 className="nm">Memory Vault</h2>
+
+      <Link to="/inovation_atlas">  
+      <div className='cds' id='c1'>
+        <h2 className="nm">Inovation Atlas</h2>
       </div>
-      <div className='cds'> 
-      <h2 className="nm">Innovation Atlas</h2>
+      </Link>
+      <Link to="/memory_valut">
+      <div className='cds' id='c2'> 
+      <h2 className="nm">Memory Vault</h2>
       </div>
-      <div className='cds'> 
+      </Link>
+      <Link to="/blog">
+      <div className='cds' id='c3'> 
       <h2 className="nm">Blogs</h2>
       </div>
+      </Link>
       
 
       </div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/inovation_atlas">Inovation Atlas</Link>
-          </li>
-          <li>
-            <Link to="/blog">Blog</Link>
-          </li>
-          <li>
-            <Link to="/memory_valut">Memory Vault</Link>
-          </li>
-        </ul>
-      </nav>
     </div>
   );
 };
