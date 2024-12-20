@@ -1,0 +1,35 @@
+
+.mv-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: black;
+    
+}
+
+
+.mv-heading {
+    font-size: 100px;
+    font-weight: bold;
+    color: #333; 
+    text-align: center; 
+    margin: 0; 
+}
+
+
+.diwali {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+
+.diwali img {
+    width: 80%; 
+    height: auto;
+    max-width: 1200px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
